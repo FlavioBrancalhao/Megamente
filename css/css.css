@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 25vh;
+    background-color: #38B6FF;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+header .centro{
+    width:100%;
+    height: auto;
+    
+}
+header h1{
+    margin-left: -100px;
+}
+.logo{
+    background-image: url('../img/logo2.gif');
+    width: 200px;
+    height: 20vh;
+    image-rendering: auto;
+    image-resolution: 720px;
+    background-size: cover;
+    margin-left: 50px;
+}
+.logo:hover{
+    background-image: url('../img/logo1.gif');
+    
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #38B6FF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.tabela{
+    width: 90%;
+    height: auto;
+    
+    margin: auto;
+    margin-top: 20px;
+
+}
+.tabela thead{
+    background-color: #fbeeac;
+    text-align: center;
+}
+.tabela th{
+    width: 22.5%;
+    height: 5vh;
+    font-size: 1.3em;
+    
+}
+.tabela td{
+    width: 22.5%;
+    height: 5vh;
+    font-size: 1.2em;
+}
+.flutuar{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-radius: 100%;
+    background-color: #097f5b;
+    text-decoration: none;
+    color: white;
+    bottom: 0;
+    right: 0;
+    font-size: 4em;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.flutuar:hover{
+    background-color: #01b982;
+}
+
+.Dcolor{
+    color: #097f5b;
+}
+.livros{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    background-color: #097f5b;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titulolivros{
+    width: 100%;
+    height: auto;
+    background-color: #01b982;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+.livros label{
+    font-size: 1.5em;
+    color: white;
+    
+    
+}
+form{
+    width: 100%;
+}
+form input{
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.lingua{
+    width: 30%;
+}
+form textarea{
+    width: 70%;
+    height: 50vh;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.descN{
+    height: 10vh;
+}
+form .submitar{
+    width: 30%;
+    height: 60px;
+    font-size: 1.5em;
+    background-color: #01b982;
+    color: white;
+    cursor: pointer;
+}
+.submitar2{
+    
+    font-size: 1.5em;
+  
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.submitar2:hover{
+    color:#01b982;
+    
+}
+.submitar:hover{
+    color:#097f5b;
+    background-color: white;
+}
+.info{
+    width: 50%;
+    height: auto;
+    margin: auto;
+
+}
+.tituloA{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.tituloA h3{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #01b982;
+    border-radius: 20px;
+    color: white;
+}
+.info h2{
+    font-size: 1.3em;
+    color: gray;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.info h1{
+    font-size:3.5em;
+    font-weight: 100;
+    text-decoration: underline;
+}
+.info textarea{
+    background-color: rgb(98, 98, 98);
+    color: white;
+    padding: 20px;
+    width: 70%;
+    height: 40vh;
+    border-radius: 20px;
+}
+.info a{
+    font-size: 1.5em;
+    color: #097f5b;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.info a:hover{
+    color: #01b982;
+}
